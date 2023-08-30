@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hero.css">
+    <link rel="stylesheet" href="Navbar.css">
+    <link rel="stylesheet" href="Cards.css">
+    <link rel="stylesheet" href="Footer.css">
+    <title>Fatima</title>
+</head>
+<style>
+    .navbar {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-image: url('card-img-3.jpg');
+    }
+
+    #Hero-section {
+        background-image: url("img-main.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: 80vh;
+        display: flex;
+    }
+
+    .card-img-bg-1 {
+        background-image: url("card-img-1.jpg");
+    }
+
+    .card-img-bg-2 {
+        background-image: url("card-img-2.jpg");
+    }
+
+    .card-img-bg-3 {
+        background-image: url("card-img-3.jpg");
+    }
+
+    /* Footer */
+</style>
+
+<body>
+    <nav class="navbar">
+        <div id="logos">
+            <h1 class="element" id="logo">Fatima Khan</h1>
+        </div>
+
+        <ol class="nav-ol">
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Projects</li>
+            <li>Contact</li>
+        </ol>
+        </div>
+        <div class="btns">
+            <button class="nav-btn">Login</button>
+            <button class="nav-btn">Hire Me</button>
+        </div>
+    </nav>
+    <div id="Hero-section">
+        <div class="hero-text">
+            <div class="text-h">
+                <h2>Hello</h2>
+                <h1>I am <span class="heroText"></span></h1>
+                <p><i>Skilled web developer passionate about crafting dynamic websites. Expertise in HTML, CSS,
+                        JavaScript for seamless user experiences.</i> </p>
+            </div>
+            <div class="hero-text-btn">
+                <button onclick="handleCv()" class="hero-text-btns" id="hero-btn-1">Download CV</button>
+                <button onclick="handleClick()" class="hero-text-btns" id="hero-btn-2">Hire Me</button>
+            </div>
+        </div>
+        <div class="hero-img">
+            <img id="heros-img" src="angrybird.png" alt="This is my image">
+        </div>
+
+    </div>
+
+    <!-- Cards -->
+
+    <div class="cards-container">
+
+        <div class="card">
+            <div class="card-img-bg-1">
+
+            </div>
+            <h1>Card Title</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam, quo. Nesciunt, praesentium.</p>
+            <button class="card-btn">Click Here</button>
+        </div>
+        <div class="card">
+            <div class="card-img-bg-2">
+
+            </div>
+            <h1>Card Title</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam, quo. Nesciunt, praesentium.</p>
+            <button class="card-btn">Click Here</button>
+        </div>
+        <div class="card">
+            <div class="card-img-bg-3">
+
+            </div>
+            <h1>Card Title</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam, quo. Nesciunt, praesentium.</p>
+            <button class="card-btn">Click Here</button>
+        </div>
+
+
+    </div>
+
+    <!-- Footer -->
+
+    <div class="footer">
+        <div class="footer-content">
+            <div class="container-1">
+                <h1>Fatima Khan</h1>
+                <h5><a href="#">Fatima Khan</a> lorem ipsum dolor sit amet consectetur adipisicing elit. Ab asperiores,
+                    quidem sed ratione vel
+                    recusandae
+                    distinctio eos perspiciatis ipsa aliquid doloremque nam voluptatum laboriosam velit omnis, ea
+                    similique
+                    in
+                    nostrum rerum corrupti sunt beatae illo eum. Minus, cupiditate? Sint, maxime!</h5>
+                <div class="footer-icon">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+            <div class="container-2">
+                <h2 style="text-align: center; font-weight: bold; font-size: 2rem;">Contact Me</h2>
+
+                <div id="footer-login">
+                    <input type="text" placeholder="Enter your name">
+                    <input type="text" placeholder="Enter last name">
+                    <input type="email" placeholder="example@example.com">
+                    <textarea placeholder="Enter your message" style="margin-top: 5px; padding: 0 10px;" rows="5"></textarea>
+                    <button id="footer-login-btn">Send Message</button>
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright-footer">
+            <h5>@copy:Fatima Khan All right Reserved</h5>
+        </div>
+    </div>
+
+</body>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+    var a = new Typed('.element', {
+        strings: ['Fatima khan', 'Web Developer', 'Web Developer'],
+        typeSpeed: 100,
+        backSpeed: 150,
+        showCursor: false,
+        loop: true
+
+    })
+
+    var a = new Typed('.heroText', {
+        strings: ['Fatima khan', 'Web Developer', 'Web Developer'],
+        typeSpeed: 100,
+        backSpeed: 150,
+        showCursor: false,
+        loop: true
+
+    })
+
+
+    function handleClick() {
+        alert("I am Not Available")
+    }
+    function handleCv() {
+        alert("Check your Downloads")
+    }
+
+</script>
+<script src="https://kit.fontawesome.com/f1077552d3.js" crossorigin="anonymous"></script>
+
+</html>

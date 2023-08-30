@@ -1,0 +1,75 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+::selection {
+  color: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
+}
+nav:hover {
+    background-color: #e0d4d4;
+
+}
+
+.navbar {
+    display: flex;
+    padding: 0%;
+    justify-content: space-between;
+    padding: 0 2rem;
+    border: 2px solid;
+    padding-top : 1% !important; 
+    height: 55px;
+    /* width:100%; */
+    background-image: url('img/fatima-img.png');
+}
+
+ #logos #logo{
+        position: absolute;
+        color: #fff;
+
+}
+
+ol {
+    display: flex;
+    justify-content: center; 
+
+}
+
+.nav-ol li {
+    list-style: none;
+    padding: 0px 2vh;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav-ol li:hover {
+    font-weight: bold;
+   color: red;
+}
+.nav-btns {
+    margin: 0% !important;
+    padding: 0% !important;
+    display: flex;
+    justify-content: center; 
+}
+
+.nav-btn {
+    background-color: rgba(101, 103, 221, 0.904);
+    color: #fff;
+    padding: 1vh 4vh;
+    border-radius: 20px;
+    border: none;
+    margin-right: 20px;
+    
+
+}
+
+
+
+.nav-btn:hover {
+    background-color: red;
+    font-weight: bold;
+}

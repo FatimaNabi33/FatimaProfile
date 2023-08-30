@@ -1,0 +1,93 @@
+
+.hero-img {
+    margin: auto;
+    animation: myanimation 1s linear infinite;
+
+}
+
+
+@keyframes myanimation {
+    0% {
+        transform: translateX(0);
+    }
+
+    75% {
+        transform: translateX(-1%);
+    }
+
+    50% {
+        transform: translateY(-3%);
+    }
+}
+
+
+
+.hero-text {
+    justify-content: center;
+    text-align: start;
+    width: 65%;
+    padding: 8% 3rem;
+    color: rgb(214, 45, 45);
+}
+
+.hero-text h2 {
+    font-size: 2rem;
+
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    padding-top: 1rem;
+}
+
+.hero-text span {
+    font-size: 2.6rem;
+    margin: 0 1vh;
+    color: rgb(204, 23, 23);
+}
+
+.hero-text p {
+    color: rgb(206, 120, 117);
+    width: 60%;
+    word-spacing: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 1vh;
+}
+
+.hero-text-btn {
+    margin: 2rem 0;
+}
+
+#hero-btn-1 {
+    border: 2px solid;
+    background-color: #fff;
+    border-radius: 40px;
+    padding: 10px 2vh;
+    font-size: 3vh;
+    font-weight: bold;
+
+}
+
+#hero-btn-1:hover {
+    background-color: #e0dada;
+    animation: myanimation 1s linear infinite;
+}
+
+#hero-btn-2 {
+    background-color: transparent;
+    border: none;
+    font-size: 4vh;
+    font-weight: bold;
+    color: rgb(212, 34, 34);
+    text-shadow: 5px -2px #ffffff77;
+    margin-left: 2rem;
+}
+
+#hero-btn-2:hover {
+    border: 2px solid;
+    background-color: #fff;
+    border-radius: 40px;
+    padding: 0.8vh 1.5rem;
+    animation: myanimation 1s linear infinite;
+}
